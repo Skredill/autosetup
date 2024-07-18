@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>BestBuy-GeekSquad</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>426573744275792D4765656B5371756164</hex>
+			<name>BestBuy-GeekSquad</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000ECCEE809F1F76F45BE53A86A83061BB2000000000200000000001066000000010000200000004210E43A3B176A85ECB36DB93556926F1555A486357319B3A5A867ADAA968F79000000000E8000000002000020000000510CEA937041E1ED62BC44CD4FBF6A214755D4DA94666054589317B38646F0B420000000CBEBC96146DDE679D9238A40909C4E57F743BB2FD17A6B8A9092A5AF6A218D7240000000F3C9A2DA4C32557DF5F261A5D0AC6DC0527B320CE3CF28F3A1FC6740285D3B64238C2D9DC196EE08FC2915E433E667FD9E27E7660F05A94682AD0A7951070E7C</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>3861917089</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>
